@@ -1,6 +1,9 @@
 using System;
 using System.Threading;
 
+/* el patron utilizado es adapter, el adaptador el timerclient, quien hace que recipe 
+sea viable para el uso de countdowntimer. Cuando recipe implementa timerclient, se adapta
+a countdowntimer. */
 namespace Full_GRASP_And_SOLID
 {
     public interface TimerClient
